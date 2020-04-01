@@ -271,14 +271,21 @@ blockquote footer {
     padding: 0 62px;
     font-weight: bold;
 }
-#top {
+#top, #bottom {
     background-color: #010e28;
     color: hsla(0,0%,100%,.5);
     font-size: 14px;
     padding: 50px 0;
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
 }
+
 #top h6 {
     font-weight: 400;
     font-size: 16px;
     color: white;
+}
+.social-icons {
+    color: hsla(0,0%,100%,.5);
+    font-size: 23px;
+    margin-left: 10px;
 }
