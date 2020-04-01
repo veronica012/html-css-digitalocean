@@ -6,12 +6,10 @@ body {
     color: white;
     padding: 50px 0;
 }
-
 h1 {
     font-size: 46px;
     font-weight: bolder;
 }
-
 #jumbo-content p {
     font-size: 24px;
     opacity: 0.8;
@@ -99,7 +97,6 @@ h1 {
 #business {
     background-color: #f3f5f9;
     padding: 50px 0;
-
 }
 h3 {
     font-size: 14px;
@@ -222,10 +219,8 @@ h2 {
     font-size: 36px;
 }
 #dev-team p {
-    color:
-    font-weight: bolder;
-    font-size: 36px;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 24px;
     color: rgba(3,27,78,.7);
     font-weight:;
     padding-bottom: 20px;
@@ -233,4 +228,47 @@ h2 {
 #dev-team a {
     color: #0069ff;
     text-decoration: underline;
+}
+#dev-team a:hover {
+    color: #005fe6;
+}
+.rockerbox {
+    background-color: white;
+    padding: 32px;
+}
+blockquote {
+    border-left: 0;
+}
+blockquote footer {
+        color: rgba(3,27,78,.7);
+}
+#read {
+    margin-top: 30px;
+}
+#read a {
+    text-decoration: none;
+}
+#read a:hover {
+    color: #005fe6;
+}
+#get-started {
+    background-color: #0069ff;
+    color: white;
+    padding: 50px 0;
+}
+#get-started h2 {
+    font-weight: bolder;
+    font-size: 36px;
+    color: white;
+}
+#get-started .btn-default {
+    background-color: #fff;
+    border: none;
+    color: #0069ff;
+    font-size: 16px;
+    font-weight: 400;
+    height: 48px;
+    padding: 0 62px;
+    font-weight: bold;
+
 }
