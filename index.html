@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <script src="https://kit.fontawesome.com/c3ece0a22b.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
-        <title>digital ocean</title>
+        <title>Digital Ocean</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
          <link rel="stylesheet" href="style.css">
@@ -23,18 +23,21 @@
                             <p>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel,predictable pricing, team accounts, and more.
                         </p>
                         </div>
-                        <div id="signup-box" class="col-xs-12 col-sm-6 text-center">
+                        <div class="col-sm-1"></div>
+                        <div id="signup-box"class="col-xs-12 col-sm-5 text-center">
                             <h2 class="text-center">Deploy in seconds</h2>
                             <input type="text" class="form-control" placeholder="Full name">
                             <input type="email" class="form-control" placeholder="Email address">
                             <input type="password" class="form-control" placeholder="Create a password">
                             <button type="button" class="btn btn-default btn-lg btn-block" id="create-account">Create your account</button>
-
-                                <button type="button" class="btn btn-primary btn-lg"><i class="fab fa-google"></i> Google</button>
-                                <button type="button" class="btn btn-primary btn-lg"><i class="fab fa-github"></i> GitHub</button>
+                            <div class="separatore center-block text-center">
+                               <span>or sign up with</span>
+                            </div>
+                            <button type="button" class="btn btn-primary btn-lg"><i class="fab fa-google"></i> Google</button>
+                            <button type="button" class="btn btn-primary btn-lg"><i class="fab fa-github"></i> GitHub</button>
 
                             <p id="terms">
-                                By signing up you agree to the <a href="#">Terms of Service.</a>
+                                By signing up you agree to the <a href="#">Terms of Service.</p>
                             </p>
                         </div>
                     </div>
@@ -64,7 +67,6 @@
                         <div class="logo col-xs-6 col-sm-6 col-md-2">
                             <img class="img-responsive" src="img/wework.png" alt="we work">
                         </div>
-
                 </div>
             </div>
         </section>
@@ -84,7 +86,7 @@
         <div class="container">
                 <div class="row">
                     <div id="list" class="col-xs-12 col-sm-12 col-md-4">
-                        <ul>
+                        <ul class="list-unstyled">
                             <li>Deploy</li>
                             <li>Scale</li>
                             <li>Store</li>
@@ -136,11 +138,11 @@
                             Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.
                         </p>
                         <img class="img-responsive center-block" src="img/kubernetes.jpg" alt="get started with kubernetes">
-                        <spanc class="text-center">
+                        <span class="text-center">
                             Use Kubernetes to improve availability, scalability,
                              and resource efficiency of your containerized applications.
                         </span>
-                        <p id="icons">
+                        <p id="icons" class="text-center">
                             <i class="fas fa-circle"></i>
                             <i class="far fa-circle"></i>
                             <i class="far fa-circle"></i>
@@ -150,9 +152,94 @@
                     </div>
                     <div class="col-md-2"></div>
                 </div>
+            </div>
+        </section>
+        <section id="built-for">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 .col-md-6 .col-md-offset-3">
+                        <h2 class="text-center">Built for business</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <h4>Reliable platform</h4>
+                            <p>
+                                More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.
+                            </p>
+                            <p>
+                                <a href="#">Security <i class="fas fa-angle-right"></i></a>
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <h4>Predictable pricing</h4>
+                            <p>
+                                Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.
+                            </p>
+                            <p>
+                                <a href="#">Pricing <i class="fas fa-angle-right"></i></a>
+                            </p>
 
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <h4>World-class service</h4>
+                            <p>
+                                Free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love.
+                            </p>
+                            <p>
+                                <a href="#">Support <i class="fas fa-angle-right"></i></a>
+                            </p>
+
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <h4>Security and compliance</h4>
+                            <p>
+                                Keep your data protected. Our platform is certified on multiple international standards, including SOC 1 Type II, SOC 2 Type II, ISO/IEC 27001, and PCI-DSS.
+                            </p>
+                            <p>
+                                <a href="#">Compliance <i class="fas fa-angle-right"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="data-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 col-md-offset-3">
+                        <h2 class="text-center">
+                            Service your customers around the world from 12 data centers.
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="dev-team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2">
+                    <h2 class="text-center">
+                        Development teams love DigitalOcean
+                    </h2>
+                    <p class="text-center">
+                        Easily organize your infrastructure with Projects. And with <a href="#">Teams</a>, everyone can get their own account, with just the privileges they need to do their jobs.
+                    </p>
+
+                </div>
+            </div>
 
             </div>
+
         </section>
 
     </body>

@@ -4,24 +4,23 @@ body {
 #jumbotron {
     background: #0069ff;
     color: white;
-    padding: 50px 30px;
+    padding: 50px 0;
 }
 
 h1 {
     font-size: 46px;
     font-weight: bolder;
 }
+
 #jumbo-content p {
     font-size: 24px;
     opacity: 0.8;
-
 }
 #signup-box {
     background-color: white;
     padding: 30px;
     border: 1px solid rgba(3,27,78,.1);
     border-radius: 5px;
-
 }
 .form-control {
     height: 48px;
@@ -60,6 +59,31 @@ h1 {
 .btn-primary:hover {
     background: #d5e4f7;
 }
+.separatore span {
+    color: #5b6987;
+}
+.separatore {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.separatore::before,
+.separatore::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    /**width: calc((100% - 60px) / 2);**/
+    height: 1px;
+    background-color: #5b6987;
+}
+.separatore::before {
+    left: 0;
+}
+.separatore::after {
+    right: 0;
+}
 .fa-github {
     color:rgba(3,27,78,.7);
 }
@@ -71,15 +95,10 @@ h1 {
     color: #0069ff;
     text-decoration: underline;
 }
-h2 {
-    font-size: 30px;
-    color: #031b4e;
-    font-weight: bolder;
-    margin-bottom: 20px;
-}
+
 #business {
     background-color: #f3f5f9;
-    padding: 50px 30px;
+    padding: 50px 0;
 
 }
 h3 {
@@ -92,8 +111,16 @@ h3 {
 .logo {
     display: inline-block;
 }
+.logo img {
+  height: 100px;
+  object-fit: contain;
+}
 #header-deploy {
-    padding: 50px 30px;
+    padding: 50px 0;
+}
+h2 {
+    color: #031b4e;
+    margin-bottom: 20px;
 }
 #header-deploy h2 {
     font-weight: bolder;
@@ -106,7 +133,7 @@ h3 {
     font-weight:;
 }
 #deploy-content {
-    padding: 0 30px 50px;
+    padding-bottom: 50px;
 }
 #deploy-content h4 {
         color: #031b4e;
@@ -124,7 +151,7 @@ h3 {
 
 }
 #list li {
-    list-style-type: none;
+
     font-size: 16px;
     font-weight: bold;
     color: rgba(3,27,78,.7);
@@ -134,7 +161,7 @@ h3 {
 }
 #designed-for {
     background-color: #f3f5f9;
-    padding: 50px 50px;
+    padding: 50px 0;;
 }
 #designed-for h2 {
     font-weight: bolder;
@@ -149,7 +176,61 @@ h3 {
 .fa-circle {
     color: #0069ff;
     font-size: 12px;
-}
-#icons {
+    cursor: pointer;
     margin-top: 20px;
+}
+
+#built-for {
+    padding: 50px 0;
+}
+#built-for h2 {
+    font-weight: bolder;
+    font-size: 36px;
+}
+#built-for h4 {
+
+    color: #031b4e;
+    font-weight: 400px;
+    font-size: 18px;
+}
+#built-for p {
+    font-size: 16px;
+    color: rgba(3,27,78,.7);
+}
+#built-for a {
+    color: #0069ff;
+    text-decoration: none;
+}
+#built-for a:hover {
+    color: #005fe6;
+}
+#data-section {
+    background-color: #031b4e;
+    padding: 50px 0;
+}
+#data-section h2 {
+    color: white;
+    font-weight: bolder;
+    font-size: 36px;
+}
+#dev-team {
+    background-color: #f3f5f9;
+    padding: 50px 0;
+}
+#dev-team h2 {
+    font-weight: bolder;
+    font-size: 36px;
+}
+#dev-team p {
+    color:
+    font-weight: bolder;
+    font-size: 36px;
+    font-size: 20px;
+    color: rgba(3,27,78,.7);
+    font-weight:;
+    padding-bottom: 20px;
+}
+#dev-team a {
+    color: #0069ff;
+    text-decoration: underline;
 }
