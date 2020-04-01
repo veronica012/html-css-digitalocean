@@ -91,5 +91,65 @@ h3 {
 }
 .logo {
     display: inline-block;
-    
+}
+#header-deploy {
+    padding: 50px 30px;
+}
+#header-deploy h2 {
+    font-weight: bolder;
+    font-size: 36px;
+
+}
+#header-deploy p {
+    font-size: 20px;
+    color: rgba(3,27,78,.7);
+    font-weight:;
+}
+#deploy-content {
+    padding: 0 30px 50px;
+}
+#deploy-content h4 {
+        color: #031b4e;
+        font-weight: 400px;
+        font-size: 18px;
+
+}
+#deploy-content p {
+    font-size: 16px;
+
+}
+#list ul {
+    border-left: 2px solid #ccc;
+
+
+}
+#list li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(3,27,78,.7);
+    padding: 17px 10px 17px 30px;
+    cursor: pointer;
+    text-align: center;
+}
+#designed-for {
+    background-color: #f3f5f9;
+    padding: 50px 50px;
+}
+#designed-for h2 {
+    font-weight: bolder;
+    font-size: 36px;
+}
+#designed-for p {
+    font-size: 20px;
+    color: rgba(3,27,78,.7);
+    font-weight:;
+    padding-bottom: 20px;
+}
+.fa-circle {
+    color: #0069ff;
+    font-size: 12px;
+}
+#icons {
+    margin-top: 20px;
 }
