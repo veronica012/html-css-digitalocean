@@ -2,7 +2,7 @@ body {
     font-family: 'Sen', sans-serif;
 }
 #jumbotron {
-    background: #0069ff;
+    background-image: url("img/bg-home.jpg");
     color: white;
     padding: 50px 0;
 }
@@ -19,6 +19,9 @@ h1 {
     padding: 30px;
     border: 1px solid rgba(3,27,78,.1);
     border-radius: 5px;
+}
+#signup-box h2 {
+    font-weight: bolder;
 }
 .form-control {
     height: 48px;
@@ -133,14 +136,14 @@ h2 {
     padding-bottom: 50px;
 }
 #deploy-content h4 {
-        color: #031b4e;
-        font-weight: 400px;
-        font-size: 18px;
-
+    color: #031b4e;
+    font-weight: 400px;
+    font-size: 18px;
 }
+
 #deploy-content p {
     font-size: 16px;
-
+    color: rgba(3,27,78,.7);
 }
 #list ul {
     border-left: 2px solid #ccc;
@@ -170,6 +173,7 @@ h2 {
     font-weight:;
     padding-bottom: 20px;
 }
+
 .fa-circle {
     color: #0069ff;
     font-size: 12px;
@@ -185,7 +189,6 @@ h2 {
     font-size: 36px;
 }
 #built-for h4 {
-
     color: #031b4e;
     font-weight: 400px;
     font-size: 18px;
@@ -204,6 +207,7 @@ h2 {
 #data-section {
     background-color: #031b4e;
     padding: 50px 0;
+    background-image: url("img/data-center-map.svg");
 }
 #data-section h2 {
     color: white;
@@ -223,6 +227,7 @@ h2 {
     font-size: 24px;
     color: rgba(3,27,78,.7);
     font-weight:;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 #dev-team a {
@@ -239,7 +244,7 @@ h2 {
 blockquote {
     border-left: 0;
 }
-blockquote footer {
+ blockquote small {
         color: rgba(3,27,78,.7);
 }
 #read {
@@ -252,7 +257,7 @@ blockquote footer {
     color: #005fe6;
 }
 #get-started {
-    background-color: #0069ff;
+    background-image: url("img/bg-home.jpg");
     color: white;
     padding: 50px 0;
 }
@@ -271,6 +276,11 @@ blockquote footer {
     padding: 0 62px;
     font-weight: bold;
 }
+#get-started .btn-default:hover {
+    background-color: hsla(0,0%,100%,.8);
+    color: #0069ff;
+}
+
 #top, #bottom {
     background-color: #010e28;
     color: hsla(0,0%,100%,.5);
@@ -288,4 +298,14 @@ blockquote footer {
     color: hsla(0,0%,100%,.5);
     font-size: 23px;
     margin-left: 10px;
+}
+.social-icons:hover {
+    color: white;
+}
+#top li:hover {
+    color: white;
+}
+.do-icon {
+    margin-right: 15px;
+    cursor: pointer;
 }
