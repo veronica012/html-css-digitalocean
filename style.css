@@ -144,10 +144,11 @@ h2 {
 #deploy-content p {
     font-size: 16px;
     color: rgba(3,27,78,.7);
+    margin-bottom: 30px;
 }
+
 #list ul {
     border-left: 2px solid #ccc;
-
 
 }
 #list li {
@@ -155,7 +156,7 @@ h2 {
     font-size: 16px;
     font-weight: bold;
     color: rgba(3,27,78,.7);
-    padding: 17px 10px 17px 30px;
+    padding: 10px 10px 10px 10px;
     cursor: pointer;
     text-align: center;
 }
