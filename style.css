@@ -88,11 +88,11 @@ h1 {
 .fa-github {
     color:rgba(3,27,78,.7);
 }
-#terms {
+.terms {
     font-size: 12px;
     color: rgba(3,27,78,.7);
 }
-#terms a {
+.terms a {
     color: #0069ff;
     text-decoration: underline;
 }
@@ -174,7 +174,10 @@ h2 {
     font-weight:;
     padding-bottom: 20px;
 }
-
+#designed-for #kubernetes-use {
+    font-size: 12px;
+    color: rgba(3,27,78,.7);
+}
 .fa-circle {
     color: #0069ff;
     font-size: 12px;
@@ -246,7 +249,7 @@ blockquote {
     border-left: 0;
 }
  blockquote small {
-        color: rgba(3,27,78,.7);
+    color: rgba(3,27,78,.7);
 }
 #read {
     margin-top: 30px;
