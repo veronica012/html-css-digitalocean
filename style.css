@@ -27,6 +27,7 @@ body {
 }
 .header-bottom .navbar-default li a:hover {
     color: #0069ff;
+
 }
 .navbar-right input {
     background-color: transparent;
@@ -183,6 +184,7 @@ h3 {
 }
 .logo img {
   height: 80px;
+  width: 100px;
   object-fit: contain;
 }
 #header-deploy {
