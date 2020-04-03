@@ -10,10 +10,32 @@ h1 {
     font-size: 46px;
     font-weight: bolder;
 }
+#jumbo-content {
+    position: relative;
+    height: 60vh;
+}
+.alert-info {
+    background-color: #00b47b;
+    border: 1px solid #009969;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+    padding: 8px 16px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+.jumbo-vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
 #jumbo-content p {
     font-size: 24px;
     opacity: 0.8;
+
 }
+
 #signup-box {
     background-color: white;
     padding: 30px;
@@ -151,14 +173,16 @@ h2 {
     border-left: 2px solid #ccc;
 
 }
-#list li {
+#list li{
 
     font-size: 16px;
     font-weight: bold;
     color: rgba(3,27,78,.7);
     padding: 10px 10px 10px 10px;
     cursor: pointer;
-    text-align: center;
+}
+#list li:first-of-type {
+    color:  #031b4e;
 }
 #designed-for {
     background-color: #f3f5f9;
@@ -212,11 +236,24 @@ h2 {
     background-color: #031b4e;
     padding: 50px 0;
     background-image: url("img/data-center-map.svg");
+    color: white;
 }
 #data-section h2 {
     color: white;
     font-weight: bolder;
     font-size: 36px;
+}
+#data-section .opacity {
+    opacity: 0.6;
+}
+
+#data-section a {
+    color: #00d7d2;
+    font-size: 13px;
+    text-decoration: none;
+}
+#data-section a:hover {
+    color: #0069ff;
 }
 #dev-team {
     background-color: #f3f5f9;
