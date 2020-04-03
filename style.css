@@ -9,6 +9,7 @@ body {
     border-radius: 0;
     border-bottom: 1px solid #e5e8ed;
     margin-bottom: 0;
+
 }
 .header-top .navbar-default a {
     color: #5b6987;
@@ -16,11 +17,6 @@ body {
 }
 .header-top .navbar-default a:hover {
     color: #0069ff;
-}
-
-.header-top .navbar-right li a {
-    color: #5b6987;
-    text-decoration: none;
 }
 .header-bottom .navbar-default {
     border: 0;
@@ -32,6 +28,7 @@ body {
 }
 .header-bottom .navbar-default li a {
     color: #031b4e;
+
 }
 .header-bottom .navbar-default li a:hover {
     color: #0069ff;
@@ -62,7 +59,8 @@ body {
 #jumbotron {
     background-image: url("img/bg-home.jpg");
     color: white;
-    padding: 50px 0;
+    padding-bottom: 50px;
+    padding-top: 80px;
 }
 h1 {
     font-size: 46px;
@@ -73,6 +71,7 @@ h1 {
     height: 60vh;
 }
 .alert-info {
+    margin-top: 100px;
     background-color: #00b47b;
     border: 1px solid #009969;
     border-radius: 5px;
@@ -130,7 +129,7 @@ h1 {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 3px;
-    height: 48px;
+    width: 49%;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -188,7 +187,7 @@ h3 {
     display: inline-block;
 }
 .logo img {
-  height: 100px;
+  height: 80px;
   object-fit: contain;
 }
 #header-deploy {
@@ -201,7 +200,6 @@ h2 {
 #header-deploy h2 {
     font-weight: bolder;
     font-size: 36px;
-
 }
 #header-deploy p {
     font-size: 20px;
@@ -304,6 +302,7 @@ h2 {
 #data-section a:hover {
     color: #0069ff;
 }
+
 #dev-team {
     background-color: #f3f5f9;
     padding: 50px 0;
