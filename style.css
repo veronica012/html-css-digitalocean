@@ -367,6 +367,16 @@ blockquote small {
     background-color: hsla(0,0%,100%,.8);
     color: #0069ff;
 }
+#getstarted-div {
+    position: relative;
+    padding-bottom: 50px;
+}
+#getstarted-btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
 #top, #bottom {
     background-color: #010e28;
     color: hsla(0,0%,100%,.5);
