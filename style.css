@@ -21,6 +21,7 @@ body {
 }
 .header-trasparente {
     margin-top: 20px;
+
 }
 .fa-bars {
     font-size: 20px;
@@ -181,6 +182,13 @@ h1 {
     background-color: #f3f5f9;
     padding: 50px 0;
 }
+#business a{
+    color: #0069ff;
+    text-decoration: none;
+}
+#business a:hover {
+    color: #005fe6;
+}
 h3 {
     font-size: 14px;
     font-weight: bold;
@@ -308,6 +316,7 @@ h2 {
 #data-section a:hover {
     color: #0069ff;
 }
+
 
 #dev-team {
     background-color: #f3f5f9;
