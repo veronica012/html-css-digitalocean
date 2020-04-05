@@ -7,12 +7,14 @@ body {
     margin-bottom: 0;
     border-bottom: 1px solid #e5e8ed;
     color: rgba(3,27,78,.7);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .navbar-brand img {
     object-fit: contain;
     height: 30px;
 }
-
 .header-top .navbar-default a {
     color: #5b6987;
     text-decoration: none;
@@ -27,7 +29,6 @@ body {
 }
 .header-bottom .navbar-default li a:hover {
     color: #0069ff;
-
 }
 .navbar-right input {
     background-color: transparent;
